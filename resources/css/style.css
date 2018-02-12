@@ -88,10 +88,18 @@ h2 {
 	font-weight: bold;
 }
 
+h3 {
+	display: block;
+	font-weight: bold;
+}
+
 h4 {
 	display: block;
 }
 
+p {
+	display: block;
+}
 
 /*Tea Of The Month*/
 #store {
@@ -108,4 +116,27 @@ h4 {
 	height: 200px;
 	margin: 10px;
 	display: block;
+}
+
+/*Locations*/
+#locations {
+	background-image: url(../images/img-locations-background.jpg);
+	height: 500px;
+	padding-top: 70px;
+}
+
+#locations .flex-container {
+	width: 1100px;
+	margin: auto;
+}
+
+.address-box {
+	display: flex;
+	background-color: black;
+	opacity: 1;
+	flex-direction: column;
+	justify-content: center;
+	padding: 10px;
+	flex-basis: 280px;
+	margin: 5px 20px;
 }
