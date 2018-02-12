@@ -39,7 +39,7 @@ a {
 }
 
 /*Mission*/
-.main-content {
+.main-content-container {
 	padding-top: 69px;
 	opacity: 0.9;
 	width: 1200px;
@@ -71,7 +71,7 @@ body {
 	flex-wrap: wrap;
 }
 
-#mission .mission-body {
+.mission-body {
 	margin: auto;
 	background-color: black;
 	width: 100%;
@@ -88,7 +88,24 @@ h2 {
 	font-weight: bold;
 }
 
-.month-pics img {
+h4 {
+	display: block;
+}
+
+
+/*Tea Of The Month*/
+#store {
+	height: 700px;
+	width: 1000px;
+	margin: auto;
+	padding-top: 70px;
+}
+
+.item-pics {
+	padding: 5px;
+}
+.item-pics img {
 	height: 200px;
-	width: 300px;
+	margin: 10px;
+	display: block;
 }
