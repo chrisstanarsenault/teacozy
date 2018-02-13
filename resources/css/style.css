@@ -23,6 +23,10 @@ h2 {
 	font-size: 1.5em;
 }
 
+span {
+	font-weight: bold;
+}
+
 /*Nav Bar*/
 header {
 	width: 100%;
@@ -132,5 +136,12 @@ a {
 }
 
 #contact-container h5 {
-	padding: 30px 0 15px 0;
+	padding: 30px 0 10px 0;
+}
+
+/*footer*/
+#footer-container {
+	text-align: left;
+	margin-left: 10px;
+	padding-top: 30px;
 }
