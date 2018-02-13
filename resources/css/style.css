@@ -1,4 +1,27 @@
+/*all content*/
+.div {
+	display: block;
+}
 
+body {
+	margin: 0;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	text-align: center;
+}
+
+h2, h3, h4, h5 { 
+	display: block;
+	margin: 0;
+	padding: 10px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.5em;
+}
 
 /*Nav Bar*/
 header {
@@ -21,7 +44,6 @@ header {
 header img{
 	padding-left: 10px;
 	height: 50px;
-
 }
 
 nav {
@@ -46,19 +68,6 @@ a {
 	margin: auto;
 }
 
-.div {
-	display: block;
-}
-
-body {
-	margin: 0;
-	font-family: Helvetica;
-	font-size: 22px;
-	color: seashell;
-	background-color: black;
-	text-align: center;
-}
-
 #mission {
 	height: 700px;
 	background-image: url(../images/img-mission-background.jpg);
@@ -76,31 +85,7 @@ body {
 	background-color: black;
 	width: 100%;
 }
-
-h2, h3, h4 { 
-	margin: 0;
-	padding: 10px;
-}
-
-h2 {
-	display: block;
-	font-size: 1.5em;
-	font-weight: bold;
-}
-
-h3 {
-	display: block;
-	font-weight: bold;
-}
-
-h4 {
-	display: block;
-}
-
-p {
-	display: block;
-}
-
+	
 /*Tea Of The Month*/
 #store {
 	height: 700px;
@@ -139,4 +124,13 @@ p {
 	padding: 10px;
 	flex-basis: 280px;
 	margin: 5px 20px;
+}
+
+/*contact*/
+#contact-container {
+	height: 200px;
+}
+
+#contact-container h5 {
+	padding: 30px 0 15px 0;
 }
